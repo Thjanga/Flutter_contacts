@@ -1,0 +1,16 @@
+# Android 네이티브 코드 제외
+android/**/* linguist-vendored
+
+# iOS 네이티브 코드 제외
+ios/**/* linguist-vendored
+
+# 빌드 결과물 제외
+build/**/* linguist-vendored
+
+# 테스트용 외부 패키지 제외
+test_driver/**/* linguist-vendored
+
+# macOS/Windows/Linux 플랫폼 관련 제외
+macos/**/* linguist-vendored
+windows/**/* linguist-vendored
+linux/**/* linguist-vendored
